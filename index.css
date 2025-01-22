@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p, h1, h2{
+    mix-blend-mode: difference;
+}
+
+body{
+    background-image: url(kepek/background.png);
+    background-size: cover;
+}
+
+.main2{
+    width: 95%;
+    margin: auto;
+}
+
+nav{
+    height: 40px;
+    background-color: rgb(59, 59, 59);
+    border-bottom: 5px solid black;
+}
+header{
+    background-image: url(kepek/iphone-13.png);
+    background-size: cover;
+    height: 300px;
+    width: 95%;
+    margin: auto;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-bottom: 10px;
+}
+header h1{
+    font-size: 90px;
+    margin-left: 10px;
+}
+article h2{
+    font-size: 40px;
+}
+article p{
+    font-size: 25px;
+}
+article img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.kep_tarolo{
+    border-radius: 30px;
+    width: 500px;
+    padding: 0px;
+    float: right;
+    background-color: black;
+}
+.kep_tarolo p{
+    margin: 15px;
+}
