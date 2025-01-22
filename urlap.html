@@ -1,15 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telefon</title>
+  </head>
+  <body>
     <main>
-        <header></header>
-        <article></article>
-        <footer></footer>
+      <header><h1>Termék</h1></header>
+      <article>
+        <form>
+          <fieldset>
+            <legend>Típus</legend>
+            <div class="radio">
+              <label for="android">Android</label>
+              <input type="radio" id="android" name="tipus" value="Android" />
+              <label for="apple">Iphone</label>
+              <input type="radio" id="apple" name="tipus" value="Iphone" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Attribútum</legend>
+            <div class="atr">
+              <label for="marka">Márka:</label>
+              <input type="text" name="marka" id="marka" placeholder="Apple" />
+            </div>
+            <div class="atr">
+              <label for="nev">Név:</label>
+              <input
+                type="text"
+                name="nev"
+                id="nev"
+                placeholder="Iphone 16 Pro Max"
+              />
+            </div>
+            <div class="atr">
+              <label for="kieadas">Megjelenési év:</label>
+              <input type="date" name="kiadas" id="kiadas" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Paraméterek</legend>
+            <div class="par">
+              <label for="ram">RAM(Gb):</label>
+              <input type="text" name="ram" id="ram" placeholder="16 GB RAM" />
+            </div>
+            <div class="par">
+              <label for="kijelzo">Kilejző(Hz):</label>
+              <input
+                type="text"
+                name="kijelzo"
+                id="kijelzo"
+                placeholder="60 Hz"
+              />
+            </div>
+            <div class="par">
+              <label for="tarhely">Tárhely(GB):</label>
+              <input
+                type="text"
+                name="tarhely"
+                id="tarhely"
+                placeholder="128/256GB"
+              />
+            </div>
+            <div class="par">
+              <label for="processzor">Processzor:</label>
+              <input
+                type="text"
+                name="processzor"
+                id="processzor"
+                placeholder="Apple A13 Bionic"
+              />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Leírás</legend>
+            <div class="leir">
+              <label for="adatok">Adatok:</label>
+              <textarea name="adatok" id="adatok"></textarea>
+            </div>
+          </fieldset>
+        </form>
+      </article>
+      <footer>&copy; Minden jog fenntartva.</footer>
     </main>
-</body>
+  </body>
 </html>
