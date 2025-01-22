@@ -31,30 +31,82 @@ header{
     margin: auto;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 header h1{
     font-size: 90px;
     margin-left: 10px;
 }
+article{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "le k1"
+                         "k2 ta";
+    gap: 10px;
+}
 article h2{
     font-size: 40px;
 }
 article p{
-    font-size: 25px;
+    font-size: 18px;
 }
-article img{
+footer p{
+    margin: 20px;
+    text-align: center;
+}
+
+.kep1, .kep2{
+    border-radius: 30px;
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+ }
+.kep1 img, .kep2 img{
     width: 100%;
     border-radius: 30px;
 }
+.kep1 p, .kep2 p{
+    margin: 18px;
+    text-align: center;
+    font-weight: bold;
+/*     background-color: black;
+ */}
 
-.kep_tarolo{
-    border-radius: 30px;
-    width: 500px;
-    padding: 0px;
-    float: right;
-    background-color: black;
+table{
+    border: 1px black dotted;
 }
-.kep_tarolo p{
-    margin: 15px;
+
+.kep1, .leiras, .kep2, .tablazat{
+    border: red 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kep1{
+    grid-area: k1;
+}
+.leira{
+    grid-area: le;
+}
+.kep2{
+    grid-area: k2;
+}
+.tablazat{
+    grid-area: ta;
 }
